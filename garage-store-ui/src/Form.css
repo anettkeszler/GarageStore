@@ -1,0 +1,72 @@
+body {
+    margin-top: 90px;
+}
+
+.form-style {
+    margin-top: 90px;
+    padding: 30px;
+}
+
+.form-body {
+    margin-left: 280px
+}
+
+.form-container {
+    padding-left: 80px;
+    background-color: lightgrey;
+    border: solid black 2px;
+    border-radius: 7px;
+    width: 75%;
+    padding-bottom: 50px;
+    opacity: 90%;
+}
+
+.input-container {
+    margin: 35px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+
+textarea {
+    border: solid black 2px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.descr-textarea {
+    width: 600px;
+    height: 200px;
+}
+
+.img-textarea {
+    width: 600px;
+    height: 100px;
+    background-color: white;
+}
+
+.url-textarea {
+    width: 600px;
+    height: 100px;
+}
+
+.button {
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 230px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: dimgrey;
+}

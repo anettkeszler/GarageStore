@@ -1,0 +1,55 @@
+.main-style {
+    marginTop: 90px;
+    padding: 30px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    border: solid black 2px;
+    border-radius: 7px;
+    text-align: center;
+    margin: 100px;
+    cursor: pointer;
+    /* opacity: 65%; */
+    transition: all 0.2s ease-in-out;
+    width: 320px;
+    height: 250px;
+    margin: 20px;
+    background-color: white;
+    text-decoration: none;
+    opacity: 90%;
+
+
+}
+
+.card:hover {
+    box-shadow: 0px 0px 3px 3px saddlebrown;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;}
+
+.card-name {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 7px;
+
+
+}
+
+.card-price {
+    font-size: 30px;
+}
+
+.card-price-red {
+    font-size: 30px;
+    color: darkred;
+}
+
+.card-image {
+}
